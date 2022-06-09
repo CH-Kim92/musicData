@@ -1,6 +1,6 @@
 ## musicRecommand
 
-dataset : songs in Spotify.  
+dataset : songs in Spotify from kaggle.  
 https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download
 <br />
 <br />
