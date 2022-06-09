@@ -1,7 +1,9 @@
 ## musicRecommand
 
-dataset : songs in Spotify.  
+dataset : songs in Spotify from kaggle.  
 https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download
+Audio file features from Spotify
+https://www.therecordindustry.io/spotify-audio-features/
 <br />
 <br />
 I want to use specific columns such as energy, danceability, song_name .. from the dataset.  
