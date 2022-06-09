@@ -4,11 +4,23 @@
 
 import numpy as np
 import pandas as pd
+import random 
 
 musicdb = pd.read_csv(
     'src/genres_v2.csv', usecols=['danceability', 'energy', 'loudness', 'speechiness', 'acousticness', 'instrumentalness', 'tempo', 'song_name'], low_memory=False)
 
-print(musicdb.dtypes)
-print(musicdb.head())
-print("Music data shape : ", musicdb.shape)
-print(musicdb.describe())
+# Drop na value
+musicDB = musicdb.dropna()
+print(musicDB.dtypes)
+print(musicDB.head())
+print("Music data shape : ", musicDB.shape)
+print(musicDB.describe())
+
+musicdb_columns = musicdb.columns
+
+# devide dataset into predictors and target 
+predictors = musicdb[musicdb_columns[musicdb_columns != 'song_name']]
+target = musicdb['song_name']
+
+rand_number = random.randrange(0,21519)
+print(musicDB.iloc[rand_number])
