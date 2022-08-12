@@ -15,4 +15,4 @@ To solve that, using `read_csv('file_path',low_memory_False)`.
 <h3> Checking data type of all columns in data frame </h3>
   Using dtypes.     
   `musicdb.dtypes`
-<p> Every mesic file is basically made up of two important things, the smaple rate, and the sample data.</p>
+<p> Every music file is basically made up of two important things, the smaple rate, and the sample data.</p>
